@@ -2,7 +2,7 @@
 This file is the procedure on how I made this AppImage. This file will be part of my procedure for future releases of [wxMEdit](https://github.com/wxMEdit/wxMEdit).
 
 ## Building wxMEdit from source
-Since it was on a pretty old version of Ubuntu, installing the dependencies was pretty easy.
+Since it was built on a pretty old version of Ubuntu, installing the dependencies was fairly easy.
 ```
 sudo apt-add-repository 'deb http://repos.codelite.org/wx3.0.4/ubuntu/ xenial universe'
 sudo apt update
@@ -93,7 +93,7 @@ done
 ```
 But doing that is a bit too overkill, [you need to remove some librairies blacklisted by the AppImage team](https://github.com/AppImage/pkg2appimage/blob/master/excludelist).  
 
-However one dependencies was missing when getting "all" of them from ldd.
+However one dependency was missing when getting "all" of them from ldd.
 ```
  cp -L /usr/lib/x86_64-linux-gnu/libicudata.so.55 .
 ```
