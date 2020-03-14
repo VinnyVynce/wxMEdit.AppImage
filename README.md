@@ -2,7 +2,7 @@
 This is the repository to install the unofficial AppImage for [wxMEdit](https://github.com/wxMEdit/wxMEdit).
 
 ## Getting started
-Install the appimage then:
+Look in releases, install the appimage then:
 ```
 chmod +x wxMEdit-3.1_FIX1.AppImage
 ```
